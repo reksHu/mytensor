@@ -22,7 +22,7 @@ from zipfile import ZipFile
 from sklearn.feature_extraction.text import TfidfVectorizer
 from tensorflow.python.framework import ops
 ops.reset_default_graph()
-
+#https://www.leiphone.com/news/201705/4CFBFH5szAubNQiK.html
 # Start a graph session
 sess = tf.Session()
 
