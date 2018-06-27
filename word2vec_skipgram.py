@@ -56,7 +56,7 @@ valid_words = ['cliche', 'love', 'hate', 'silly', 'sad']
 # Load the movie review data
 # Check if data was downloaded, otherwise download it and save for future use
 def load_movie_data():
-    save_folder_name = 'temp'
+    save_folder_name = r'E:\python\tools\data'
     pos_file = os.path.join(save_folder_name, 'rt-polarity.pos')
     neg_file = os.path.join(save_folder_name, 'rt-polarity.neg')
 
